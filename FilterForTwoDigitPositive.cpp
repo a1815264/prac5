@@ -5,9 +5,9 @@ using namespace std;
 
 bool FilterForTwoDigitPositive::g(int value)
 {
-    if (value >= 10 && value <= 99)
+    if (value >= 10 && value < 100)
     {
-        return value;
+        return true;
     }
     else
     {

@@ -3,7 +3,7 @@
 #include "FilterGeneric.h"
 
 class FilterForTwoDigitPositive : public FilterGeneric{
-public:
+    public:
     bool g(int);
 };
 #endif 

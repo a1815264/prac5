@@ -6,7 +6,7 @@ bool FilterNonPositive :: g(int value)
 {
    if (value < 0){
 
-       return value;
+       return true;
    }
    else {
 
