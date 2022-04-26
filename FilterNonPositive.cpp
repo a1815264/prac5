@@ -4,12 +4,12 @@ using namespace std;
 
 bool FilterNonPositive :: g(int value)
 {
-   if (value < 0){
+   if (value > 0){
 
-       return true;
+       return false;
    }
    else {
 
-       return false;
+       return true;
    }
 }

@@ -6,6 +6,5 @@ using namespace std;
 
 int MapSquare::f(int value)
 {
-    int flag = pow(value, 2);
-    return flag;
+    return pow(value, 2);
 }

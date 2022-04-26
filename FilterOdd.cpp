@@ -7,10 +7,10 @@ bool FilterOdd::g(int value)
 {
     if (value % 2 == 0)
     {
-        return value;
+        return true;
     }
     else
     {
-        return true;
+        return false;
     }
 }
