@@ -2,11 +2,6 @@
 #include <iostream>
 using namespace std;
 
-FilterGeneric :: FilterGeneric()
-{
-
-}
-
 vector<int> FilterGeneric::filter(vector<int> vec)
 {
     int flag = vec.at(0);
