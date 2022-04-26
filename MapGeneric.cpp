@@ -2,11 +2,6 @@
 #include <iostream>
 using namespace std;
 
-MapGeneric :: MapGeneric()
-{
-    
-}
-
 vector<int> MapGeneric::map(vector<int> vec)
 {
     if (vec.size() == 1)
