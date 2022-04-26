@@ -2,10 +2,6 @@
 #include <iostream>
 using namespace std;
 
-ReduceGeneric::ReduceGeneric(){
-
-}
-
 int ReduceGeneric::reduce(vector<int> vec)
 {
     if (vec.size() == 1)
