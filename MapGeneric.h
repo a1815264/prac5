@@ -5,7 +5,7 @@
 class MapGeneric
 {
 public:
-    MapGeneric();
+
     std::vector<int> map(std::vector<int>);
     std::vector<int> vecCopy;
 
