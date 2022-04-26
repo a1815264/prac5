@@ -5,7 +5,6 @@
 class FilterGeneric
 {
 public:
-    FilterGeneric();
     std::vector<int> filter(std::vector<int>);
     std::vector<int> vecCopy;
 
