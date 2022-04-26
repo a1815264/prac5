@@ -5,7 +5,6 @@
 class ReduceGeneric
 {
 public:
-    ReduceGeneric();
     int reduce(std::vector<int>);
     std::vector<int> vecCopy;
 
